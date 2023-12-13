@@ -5,7 +5,7 @@ name = "Moodle"
 description.en = "Online learning platform"
 description.fr = "Plateforme d'apprentissage en ligne"
 
-version = "4.3.1~ynh1"
+version = "4.0.4io~ynh1"
 
 maintainers = [""]
 
