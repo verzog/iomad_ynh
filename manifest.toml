@@ -48,7 +48,7 @@ ram.runtime = "50M"
     ask.en = "Choose a name for the site you want to create"
     ask.fr = "Choisissez un nom pour le site que vous voulez créer"
     type = "string"
-    default = "Moodle"
+    default = "IOMAD"
 
 [resources]
 
@@ -69,7 +69,7 @@ ram.runtime = "50M"
     main.url = "/"
 
     [resources.apt]
-    packages = "postgresql, php8.2-mbstring, php8.2-curl, php8.2-xmlrpc, php8.2-soap, php8.2-zip, php8.2-gd php8.2-xml, php8.2-intl, php8.2-pgsql, php8.2-ldap"
+    packages = "postgresql, php8.1-mbstring, php8.1-curl, php8.1-xmlrpc, php8.1-soap, php8.1-zip, php8.1-gd php8.1-xml, php8.1-intl, php8.1-pgsql, php8.1-ldap"
 
     [resources.database]
     type = "postgresql"
