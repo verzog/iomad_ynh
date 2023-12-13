@@ -55,8 +55,8 @@ ram.runtime = "50M"
     [resources.sources]
 
         [resources.sources.main]
-        url = "https://github.com/moodle/moodle/archive/refs/tags/v4.3.1.tar.gz"
-        sha256 = "d7cbec3d356d370fa6c593a919074d0dac03beb2d22c6c464f435b0e2aaae206"
+        url = "https://github.com/iomad/iomad/archive/refs/tags/IOMAD_404.tar.gz"
+        sha256 = "f01d26151738514c7324e4ba54b05e8bac607678724065936e8a7e1ee9b62e63"
         autoupdate.strategy = "latest_github_tag"
 
     [resources.system_user]
