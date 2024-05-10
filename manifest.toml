@@ -1,7 +1,7 @@
 packaging_format = 2
 
-id = "moodle"
-name = "Moodle"
+id = "Iomad"
+name = "Iomad"
 description.en = "Online learning platform"
 description.fr = "Plateforme d'apprentissage en ligne"
 
@@ -11,10 +11,9 @@ maintainers = [""]
 
 [upstream]
 license = "GPL-3.0-or-later"
-website = "https://moodle.org/"
-demo = "https://sandbox.moodledemo.net/"
-admindoc = "https://docs.moodle.org/400/en/Main_page"
-code = "https://github.com/moodle/moodle"
+website = "https://www.iomad.org/"
+
+code = "https://github.com/Iomad/Iomad"
 
 [integration]
 yunohost = ">= 11.2"
@@ -35,7 +34,7 @@ ram.runtime = "50M"
 
     [install.path]
     type = "path"
-    default = "/moodle"
+    default = "/iomad"
 
     [install.init_main_permission]
     type = "group"
@@ -55,7 +54,7 @@ ram.runtime = "50M"
     [resources.sources]
 
         [resources.sources.main]
-        url = "https://github.com/iomad/iomad/archive/refs/tags/IOMAD_404.tar.gz"
+        url = "https://github.com/iomad/iomad/archive/refs/heads/IOMAD_403_STABLE.zip"
         sha256 = "f01d26151738514c7324e4ba54b05e8bac607678724065936e8a7e1ee9b62e63"
         autoupdate.strategy = "latest_github_tag"
 
@@ -69,7 +68,7 @@ ram.runtime = "50M"
     main.url = "/"
 
     [resources.apt]
-    packages = "postgresql, php7.4-mbstring, php7.4-curl, php7.4-xmlrpc, php7.4-soap, php7.4-zip, php7.4-gd php7.4-xml, php7.4-intl, php7.4-pgsql, php7.4-ldap"
+     packages = "postgresql, php8.2-mbstring, php8.2-curl, php8.2-xmlrpc, php8.2-soap, php8.2-zip, php8.2-gd php8.2-xml, php8.2-intl, php8.2-pgsql, php8.2-ldap"
 
     [resources.database]
     type = "postgresql"
